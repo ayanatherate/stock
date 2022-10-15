@@ -13,3 +13,6 @@ RMSE:4.753878116607666
 MAE:3.7952964305877686
 
 ```
+
+<h3> Model Architecture: </h3>
+<img width="526" alt="image" src="https://user-images.githubusercontent.com/59755186/196001895-f657dd32-b227-4958-9b9c-dcd95bc33937.png">
