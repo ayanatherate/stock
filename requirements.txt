@@ -1,5 +1,0 @@
-plotly
-tensorflow
-keras
-streamlit
-nsepy
