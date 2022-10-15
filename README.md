@@ -6,7 +6,7 @@ Used the model to have a (rough) estimate of the closing prices of the same, 7 d
 <h6> PS: No special reason for choosing Federal Bank. Was following the stock for a number of days and was thus interested. </h6>
 
 
-<h3>Metrics achieved: </h3>
+<h3>Metrics achieved (Validation Data):</h3>
 
 ```
 RMSE:4.753878116607666
@@ -14,5 +14,4 @@ MAE:3.7952964305877686
 
 ```
 
-<h3> Model Architecture: </h3>
-<img width="526" alt="image" src="https://user-images.githubusercontent.com/59755186/196001895-f657dd32-b227-4958-9b9c-dcd95bc33937.png">
+
