@@ -48,7 +48,7 @@ data2['Close'] = stk_data['Close']
 
 print(data2)
 
-model=load_model(r'https://github.com/ayanatherate/stock/blob/main/hh.h5')
+model=load_model('hh.h5')
 
 print(model.predict())
 
