@@ -1,0 +1,6 @@
+nsepy
+plotly
+pandas
+pickle
+tensorflow
+streamlit
