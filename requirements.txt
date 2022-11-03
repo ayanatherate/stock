@@ -1,4 +1,6 @@
 streamlit
+sklearn
+numpy
 pandas 
 nsepy
 plotly
