@@ -6,4 +6,4 @@ Used the model to have a (rough) estimate of the closing prices of the same, 7 d
 
 Link to the app hosted on Streamlit Cloud: <a href='https://stockpricestimator.streamlit.app/'>Click Here to view App </a>
 
-<h1> Not to be used as primary financial advice. Don't be dumb. </h1>
+<h1>PS: Not to be used as primary financial advice. Don't be dumb. </h1>
