@@ -1,7 +1,7 @@
 # Predicting Stock Prices using CNN-LSTM's.
 
 <h5> Being new to stock market trading, tried to see if CNN-LSTM's can help me make some &#128176; lol.  <br> <br>
-The app, when initiated, trains a CNN-LSTM model in the backend and returns an estimate of the Closing Prices of any stock (code) provided as input, five days forward. </h5>
+The app takes a NSE stock code as input and trains a CNN-LSTM model in the backend on (upto) 7 years of historical stock price data scraped using nsepy and returns an estimate of the Closing Prices of the same, days forward.
 
 
 Link to the app hosted on Streamlit Cloud: <a href='https://stockpricestimator.streamlit.app/'>Click Here to view App </a>
