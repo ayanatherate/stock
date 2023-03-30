@@ -62,6 +62,7 @@ if len(stk_data)>0:
   fig.add_trace(go.Scatter(x=stk_data.index,y=stk_data['Open'],name='Open', mode="lines"))
   fig.add_trace(go.Scatter(x=stk_data.index,y=stk_data['Close'],name='Close', mode="lines"))
   st.plotly_chart(fig,use_container_width=True)
+  st.title('helo')
   hello()
 else:
   st.write('Error! If you have entered the wrong Stock Code Entered. Please cross-check and enter the correct NSE stock code! Alternatively, if the server is down, kindly wait and try again after some time.')
