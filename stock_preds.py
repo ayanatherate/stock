@@ -16,7 +16,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
 from test import hello
 
 #################### setting page configurations #####################################################################################################
-
+hello()
 st.set_page_config(page_title='STOCK PRICE ESTIMATOR', page_icon="https://cdn-icons-png.flaticon.com/512/4449/4449895.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
 hide_streamlit_style2= '''
 <style>
