@@ -1,2 +1,3 @@
+import streamlit as st
 def hello():
-    st.write('hello')
+    st.title('hello')
