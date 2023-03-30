@@ -13,6 +13,7 @@ import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import load_model
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
+from test import hello
 
 #################### setting page configurations #####################################################################################################
 
