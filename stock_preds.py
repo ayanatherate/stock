@@ -16,7 +16,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
 from test import hello
 
 #################### setting page configurations #####################################################################################################
-hello()
+
 st.set_page_config(page_title='STOCK PRICE ESTIMATOR', page_icon="https://cdn-icons-png.flaticon.com/512/4449/4449895.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
 hide_streamlit_style2= '''
 <style>
@@ -62,6 +62,7 @@ if len(stk_data)>0:
   fig.add_trace(go.Scatter(x=stk_data.index,y=stk_data['Open'],name='Open', mode="lines"))
   fig.add_trace(go.Scatter(x=stk_data.index,y=stk_data['Close'],name='Close', mode="lines"))
   st.plotly_chart(fig,use_container_width=True)
+  hello()
 else:
   st.write('Error! If you have entered the wrong Stock Code Entered. Please cross-check and enter the correct NSE stock code! Alternatively, if the server is down, kindly wait and try again after some time.')
   st.stop()
